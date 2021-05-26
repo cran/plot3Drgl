@@ -1,4 +1,4 @@
-cafb05dc7d8ecc48e839b8bc72ca2139 *DESCRIPTION
+3dc8be51be70a657134abfb5e75ddaa5 *DESCRIPTION
 071f293bce732a3ce756a5793ae25a7b *NAMESPACE
 e3ba63f3a1d79a7a2e3a412e1e4e820b *R/arrowsrgl.R
 ce5a20d0299ab9ee4fe7716a0d1b1461 *R/cutrgl.R
@@ -9,15 +9,13 @@ ce5a20d0299ab9ee4fe7716a0d1b1461 *R/cutrgl.R
 73a3b638cb6c0b9aabe72ed094458932 *R/plotrgl.R
 e2647bb374a73b9792232ba89328a967 *R/plotrglcolkey.R
 d237376f172d670a57f566b7148d2ce2 *R/scatterrgl.R
-b6e0c0040ea4cb736982363b1772d9a2 *build/vignette.rds
-5b09189d57a0d9d6a895fe58d15746b7 *inst/doc/plot3Drgl.R
-1b4a6bae0480ae65022088a575e6929b *inst/doc/plot3Drgl.Rnw
-dfb1661308839038b459e3190880192a *inst/doc/plot3Drgl.pdf
+b600b45bd7da85e9a1a4388087dcc1a6 *inst/doc/plot3Drgl.pdf
 4a1d2502bf5f2309a4b48dd32e6d0ea6 *man/cutrgl.Rd
-40e562f48d26b881c27ff54828fb16be *man/imagergl.Rd
+8f861071476d38bc6ae3bea28fb01012 *man/imagergl.Rd
 6158a3ded8c4200767a2787d4ec18fce *man/persp3Drgl.Rd
 ce8687149eacf0c66cc2d25248e26b7f *man/plot3Rrgl.Rd
-530cab74150e0b9e608ccf33b5235d0a *man/plotrgl.Rd
-1b4a6bae0480ae65022088a575e6929b *vignettes/plot3Drgl.Rnw
+25cf1fa126a463998b49f89a39bbe554 *man/plotrgl.Rd
+f497146b38987e4d4bab2e16023efcb6 *vignettes/plot3Drgl.Rnw
+b600b45bd7da85e9a1a4388087dcc1a6 *vignettes/plot3Drgl.pdf
 45779431ee8d884a85952327cb1ec144 *vignettes/vignettes.bib
 81fc9da7cc35e319fd1cd06d3cd9b279 *vignettes/volcanocut.png

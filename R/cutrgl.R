@@ -1,7 +1,7 @@
 cutrgl <- function(...) {
   SS <- select3d()
   plist <- selectplist(getplist(), SS)
-  rgl.clear()
+  clear3d()
   dots <- list(...)
   light <- dots$lighting
   if (is.null(light))
@@ -35,7 +35,7 @@ croprgl <- function(xlim = NULL, ylim = NULL, zlim = NULL, ...) {
   else 
     plist <- clipplist(xlim, ylim, zlim)
 
-  rgl.clear()
+  clear3d()
   dots <- list(...)
   light <- dots$lighting
   if (is.null(light))
@@ -63,7 +63,7 @@ croprgl <- function(xlim = NULL, ylim = NULL, zlim = NULL, ...) {
 }
 
 uncutrgl <- function(...) {
-  rgl.clear()
+  clear3d()
   dots <- list(...)
   light <- dots$lighting
   if (is.null(light))

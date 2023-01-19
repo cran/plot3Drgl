@@ -16,7 +16,7 @@ plot3Dfunrgl <- function(funcname, ...)  {
     } else if (dots$rgltype == "rep") {
       dots$new <- FALSE
       dots$add <- TRUE
-      ids <- rgl.ids()
+      ids <- ids3d()
       toreplace <- NULL
       if (funcname%in% c("persp3D", "slice3D","slicecont3D","isosurf3D",
         "surf3D","spheresurf3D","image3D")) toreplace <- "surface"
@@ -50,7 +50,7 @@ plot3Dfunrgl <- function(funcname, ...)  {
   plot3D:::refresh(FALSE)
   do.call(funcname, dots)
   if (rep)
-    rgl.pop(type = "shapes", id = ids[ids$type == toreplace, 1])
+    pop3d(type = "shapes", id = ids[ids$type == toreplace, 1])
 
 #  plot3D:::refresh(TRUE)
   if (plot) 

@@ -100,9 +100,9 @@ plotrglplist <- function(plist, lighting = FALSE, new = TRUE, smooth = FALSE,
       do.call("open3d", dots[names(dots) %in% par3dpars]) #[!names(dots) %in% materialnames])
   else {
     if (! add & is.null(plist$clearit))
-      rgl.clear()
+      clear3d()
     else if (! is.null(plist$clearit))
-      if (plist$clearit) rgl.clear()
+      if (plist$clearit) clear3d()
     
     dotmat <- dots[names(dots) %in% par3dpars]  
     if (length(dotmat) > 0)

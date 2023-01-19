@@ -1,12 +1,12 @@
-d651c186d7f2ced1ac3a78a4ce865db6 *DESCRIPTION
+704969597f5b4e2ee66fb53ccc8176c3 *DESCRIPTION
 071f293bce732a3ce756a5793ae25a7b *NAMESPACE
 e3ba63f3a1d79a7a2e3a412e1e4e820b *R/arrowsrgl.R
-ce5a20d0299ab9ee4fe7716a0d1b1461 *R/cutrgl.R
+41df66571d8f0f23a6a4bed4960fbf56 *R/cutrgl.R
 9e2e90f84f350db49f48698f9b7650ed *R/imagergl.R
 7924d7ca73f4d525f255f7176530ebc8 *R/pan.R
-739b210660ca46eeae127354241d6e63 *R/plot2Drgl.R
-36f4e757cbb6f883a4076c9dc01e50f3 *R/plot3Drgl.R
-e3ebdbb23a6f99ad03af926801dbedc1 *R/plotrgl.R
+b0507aa8d69330ffdffba02e1718fdf3 *R/plot2Drgl.R
+015c7f6865d1e2275302122fddc0aedb *R/plot3Drgl.R
+5ba985736a91d367148c51203e50e388 *R/plotrgl.R
 e2647bb374a73b9792232ba89328a967 *R/plotrglcolkey.R
 d237376f172d670a57f566b7148d2ce2 *R/scatterrgl.R
 4a1d2502bf5f2309a4b48dd32e6d0ea6 *man/cutrgl.Rd

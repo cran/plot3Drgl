@@ -48,7 +48,7 @@ testdots <- function(dots, func.name) {
     } else if (dots$rgltype == "rep") {
       dots$new <- FALSE
       dots$add <- TRUE
-      ids <- rgl.ids()
+      ids <- ids3d()
       toreplace <- NULL
       if (func.name%in% c("persp3D", "slice3D","slicecont3D","isosurf3D",
         "surf3D","spheresurf3D","image3D")) toreplace <- "surface"
@@ -60,7 +60,7 @@ testdots <- function(dots, func.name) {
         toreplace <- "lines"
       else if (func.name == "text3D")
         toreplace <- "text"
-      rgl.pop(type = "shapes", id = ids[ids$type == toreplace, 1])
+      pop3d(type = "shapes", id = ids[ids$type == toreplace, 1])
       plist <- getplist()
       plist$imgnr<-plist$img<-plist$segm<-plist$pt<-plist$CIpt<-plist$labels <- NULL
       setplist(plist)
